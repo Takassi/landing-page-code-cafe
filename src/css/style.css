@@ -1,38 +1,51 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 1.6rem;
 }
+
 .cabecalho{
     padding: 30px 15px;
     position: relative;
 }
+
 .cabecalho .logo{
     background: url(../images/logo.jpg) center center no-repeat;
     width: 85px;
     height: 85px;
     display: inline-block;
 }
+
 .cabecalho .logo h1{
     font-size: 0;
 }
+
 .cabecalho nav {
     display: inline-block;
     position: absolute;
     right: 0;
     margin-top: 30px;
 }
+
 .cabecalho ul li {
     display: inline-block;
     padding: 15px;
 }
+
 .cabecalho ul li a:hover{
     font-weight: bold;
 }
+
 .painel {
     background: url(../images/painel.jpg) center center
     no-repeat;
     height: 600px;
 }
+
 .painel h2{
     color: white;
     font-size: 60px;
@@ -42,6 +55,7 @@ body {
     top: 50%;
     transform:  translatey(-50%);
 }
+
 .secao-com-texto {
 padding: 153px;
 text-align: center;
